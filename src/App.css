@@ -1,5 +1,19 @@
 main {
-  text-align: center;
+  text-align: left;
   vertical-align: center;
-  line-height: 100vh
+  line-height: 10vh
+}
+
+/*
+.welcome {
+  background-image: url("src/assets/winter-neva-background.png");
+}
+*/
+
+/* centers both text and images */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
