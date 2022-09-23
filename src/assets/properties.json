@@ -1,555 +1,549 @@
-{
-  "source": "https://monopoly.fandom.com/wiki/List_of_Monopoly_Properties",
-  "utilies": [
-    {
-      "name": "Electric Company",
-      "owner": null,
-      "position": 12,
-      "description": "If one \"Utility\" is owned rent is 4 times amount shown on dice. If both \"Utilities\" are owned rent is 10 times the amount shown on dice.",
-      "price": 150,
-      "mortgaged": false
-    },
-    {
-      "name": "Water Works",
-      "owner": null,
-      "position": 28,
-      "description": "If one \"Utility\" is owned rent is 4 times amount shown on dice. If both \"Utilities\" are owned rent is 10 times the amount shown on dice.",
-      "price": 150,
-      "mortgaged": false
-    }
-  ],
-  "trainstations": [
-    {
-      "name": "Reading Railroad",
-      "owner": null,
-      "position": 5,
-      "rent": {
-        "rent": "$25",
-        "If 2 Stations are Owned": "$50",
-        "If 3 Stations are Owned": "$100",
-        "If 4 Stations are Owned": "$200"
+[
+  {
+    "source": "https://monopoly.fandom.com/wiki/List_of_Monopoly_Properties",
+    "utilities": [
+      {
+        "name": "Electric Company",
+        "owner": null,
+        "position": 12,
+        "description": "If one \"Utility\" is owned rent is 4 times amount shown on dice. If both \"Utilities\" are owned rent is 10 times the amount shown on dice.",
+        "price": 150,
+        "mortgaged": false
       },
-      "price": 200,
-      "mortgaged": false
-    },
-    {
-      "position": 15,
-      "owner": null,
-      "title": "Pennsylvania Railroad",
-      "rent": {
-        "rent": "$25",
-        "If 2 Stations are Owned": "$50",
-        "If 3 Stations are Owned": "$100",
-        "If 4 Stations are Owned": "$200"
+      {
+        "name": "Water Works",
+        "owner": null,
+        "position": 28,
+        "description": "If one \"Utility\" is owned rent is 4 times amount shown on dice. If both \"Utilities\" are owned rent is 10 times the amount shown on dice.",
+        "price": 150,
+        "mortgaged": false
+      }
+    ],
+    "trainstations": [
+      {
+        "name": "Reading Railroad",
+        "owner": null,
+        "position": 5,
+        "rent": {
+          "rent": "$25",
+          "If 2 Stations are Owned": "$50",
+          "If 3 Stations are Owned": "$100",
+          "If 4 Stations are Owned": "$200"
+        },
+        "price": 200,
+        "mortgaged": false
       },
-      "price": 200,
-      "mortgaged": false
-    },
-    {
-      "position": 25,
-      "owner": null,
-      "title": "B. & O. Railroad",
-      "rent": {
-        "rent": "$25",
-        "If 2 Stations are Owned": "$50",
-        "If 3 Stations are Owned": "$100",
-        "If 4 Stations are Owned": "$200"
+      {
+        "position": 15,
+        "owner": null,
+        "title": "Pennsylvania Railroad",
+        "rent": {
+          "rent": "$25",
+          "If 2 Stations are Owned": "$50",
+          "If 3 Stations are Owned": "$100",
+          "If 4 Stations are Owned": "$200"
+        },
+        "price": 200,
+        "mortgaged": false
       },
-      "price": 200,
-      "mortgaged": false
-    },
-    {
-      "position": 35,
-      "owner": null,
-      "title": "Short Line",
-      "rent": {
-        "rent": "$25",
-        "If 2 Stations are Owned": "$50",
-        "If 3 Stations are Owned": "$100",
-        "If 4 Stations are Owned": "$200"
+      {
+        "position": 25,
+        "owner": null,
+        "title": "B. & O. Railroad",
+        "rent": {
+          "rent": "$25",
+          "If 2 Stations are Owned": "$50",
+          "If 3 Stations are Owned": "$100",
+          "If 4 Stations are Owned": "$200"
+        },
+        "price": 200,
+        "mortgaged": false
       },
-      "price": 200,
-      "mortgaged": false
-    }
-  ],
-  "properties": [
-    {
-      "position": 1,
-      "title": "Mediterranean Avenue",
-      "color": "#614901",
-      "owner": "1",
-      "rent": {
-        "rent": "$2",
-        "With colour set": "$4",
-        "With 1 House": "$10",
-        "With 2 House": "$30",
-        "With 3 House": "$90",
-        "With 4 House": "$160",
-        "With Hotel": "$250"
+      {
+        "position": 35,
+        "owner": null,
+        "title": "Short Line",
+        "rent": {
+          "rent": "$25",
+          "If 2 Stations are Owned": "$50",
+          "If 3 Stations are Owned": "$100",
+          "If 4 Stations are Owned": "$200"
+        },
+        "price": 200,
+        "mortgaged": false
+      }
+    ],
+    "properties": [
+      {
+        "position": 1,
+        "title": "Mediterranean Avenue",
+        "color": "brown",
+        "owner": "1",
+        "rent": {
+          "rent": "$2",
+          "With color set": "$4",
+          "With 1 House": "$10",
+          "With 2 House": "$30",
+          "With 3 House": "$90",
+          "With 4 House": "$160",
+          "With Hotel": "$250"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 50,
+        "price": 60,
+        "mortgaged": false
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 50,
-      "price": 60,
-      "mortgaged": false
-    },
-    {
-      "position": 3,
-      "title": "Baltic Avenue",
-      "color": "#614901",
-      "owner": "1",
-      "rent": {
-        "rent": "$4",
-        "With colour set": "$8",
-        "With 1 House": "$20",
-        "With 2 House": "$60",
-        "With 3 House": "$180",
-        "With 4 House": "$320",
-        "With Hotel": "$450"
+      {
+        "position": 3,
+        "title": "Baltic Avenue",
+        "color": "brown",
+        "owner": "1",
+        "rent": {
+          "rent": "$4",
+          "With color set": "$8",
+          "With 1 House": "$20",
+          "With 2 House": "$60",
+          "With 3 House": "$180",
+          "With 4 House": "$320",
+          "With Hotel": "$450"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 50,
+        "price": 60,
+        "mortgaged": false
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 50,
-      "price": 60,
-      "mortgaged": false
-    },
-    {
-      "position": 6,
-      "title": "Oriental Avenue",
-      "color": "#6ba9a5",
-      "owner": "1",
-      "rent": {
-        "rent": "$6",
-        "With colour set": "$12",
-        "With 1 House": "$30",
-        "With 2 House": "$90",
-        "With 3 House": "$270",
-        "With 4 House": "$400",
-        "With Hotel": "$550"
+      {
+        "position": 6,
+        "title": "Oriental Avenue",
+        "color": "light-blue",
+        "owner": "1",
+        "rent": {
+          "rent": "$6",
+          "With color set": "$12",
+          "With 1 House": "$30",
+          "With 2 House": "$90",
+          "With 3 House": "$270",
+          "With 4 House": "$400",
+          "With Hotel": "$550"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 50,
+        "price": 100,
+        "mortgaged": false
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 50,
-      "price": 100,
-      "mortgaged": false
-    },
-    {
-      "position": 8,
-      "title": "Vermont Avenue",
-      "color": "#6ba9a5",
-      "owner": "1",
-      "rent": {
-        "rent": "$6",
-        "With colour set": "$12",
-        "With 1 House": "$30",
-        "With 2 House": "$90",
-        "With 3 House": "$270",
-        "With 4 House": "$400",
-        "With Hotel": "$550"
+      {
+        "position": 8,
+        "title": "Vermont Avenue",
+        "color": "light-blue",
+        "owner": "1",
+        "rent": {
+          "rent": "$6",
+          "With color set": "$12",
+          "With 1 House": "$30",
+          "With 2 House": "$90",
+          "With 3 House": "$270",
+          "With 4 House": "$400",
+          "With Hotel": "$550"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 50,
+        "price": 100,
+        "mortgaged": false
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 50,
-      "price": 100,
-      "mortgaged": false
-    },
-    {
-      "position": 9,
-      "title": "Connecticut Avenue",
-      "color": "#6ba9a5",
-      "owner": "1",
-      "rent": {
-        "rent": "$8",
-        "With colour set": "$16",
-        "With 1 House": "$40",
-        "With 2 House": "$100",
-        "With 3 House": "$300",
-        "With 4 House": "$450",
-        "With Hotel": "$600"
+      {
+        "position": 9,
+        "title": "Connecticut Avenue",
+        "color": "light-blue",
+        "owner": "1",
+        "rent": {
+          "rent": "$8",
+          "With color set": "$16",
+          "With 1 House": "$40",
+          "With 2 House": "$100",
+          "With 3 House": "$300",
+          "With 4 House": "$450",
+          "With Hotel": "$600"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 50,
+        "price": 120,
+        "mortgaged": false
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 50,
-      "price": 120,
-      "mortgaged": false
-    },
-    {
-      "position": 11,
-      "title": "St. Charles Place",
-      "color": "#930086",
-      "owner": "1",
-      "rent": {
-        "rent": "$10",
-        "With colour set": "$20",
-        "With 1 House": "$50",
-        "With 2 House": "$150",
-        "With 3 House": "$450",
-        "With 4 House": "$625",
-        "With Hotel": "$750"
+      {
+        "position": 11,
+        "title": "St. Charles Place",
+        "color": "purple",
+        "owner": "1",
+        "rent": {
+          "rent": "$10",
+          "With color set": "$20",
+          "With 1 House": "$50",
+          "With 2 House": "$150",
+          "With 3 House": "$450",
+          "With 4 House": "$625",
+          "With Hotel": "$750"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 100,
+        "price": 140,
+        "mortgaged": false
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 100,
-      "price": 140,
-      "mortgaged": false
-    },
-    {
-      "position": 14,
-      "title": "Virginia Avenue",
-      "color": "#930086",
-      "owner": "1",
-      "rent": {
-        "rent": "$12",
-        "With colour set": "$24",
-        "With 1 House": "$60",
-        "With 2 House": "$180",
-        "With 3 House": "$500",
-        "With 4 House": "$700",
-        "With Hotel": "$900"
+      {
+        "position": 13,
+        "title": "States Avenue",
+        "color": "purple",
+        "owner": "1",
+        "rent": {
+          "rent": "$10",
+          "With color set": "$20",
+          "With 1 House": "$50",
+          "With 2 House": "$150",
+          "With 3 House": "$450",
+          "With 4 House": "$625",
+          "With Hotel": "$750"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 100,
+        "price": 140,
+        "mortgaged": false
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 100,
-      "price": 160,
-      "mortgaged": false
-    },
-    {
-      "position": 16,
-      "title": "St. James Place",
-      "color": "#d68000",
-      "owner": "1",
-      "rent": {
-        "rent": "$14",
-        "With colour set": "$28",
-        "With 1 House": "$70",
-        "With 2 House": "$200",
-        "With 3 House": "$550",
-        "With 4 House": "$750",
-        "With Hotel": "$950"
+      {
+        "position": 14,
+        "title": "Virginia Avenue",
+        "color": "purple",
+        "owner": "1",
+        "rent": {
+          "rent": "$12",
+          "With color set": "$24",
+          "With 1 House": "$60",
+          "With 2 House": "$180",
+          "With 3 House": "$500",
+          "With 4 House": "$700",
+          "With Hotel": "$900"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 100,
+        "price": 160,
+        "mortgaged": false
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 100,
-      "price": 180,
-      "mortgaged": false
-    },
-    {
-      "position": 18,
-      "title": "Tennessee Avenue",
-      "color": "#d68000",
-      "owner": "1",
-      "rent": {
-        "rent": "$14",
-        "With colour set": "$28",
-        "With 1 House": "$70",
-        "With 2 House": "$200",
-        "With 3 House": "$550",
-        "With 4 House": "$750",
-        "With Hotel": "$950"
+      {
+        "position": 16,
+        "title": "St. James Place",
+        "color": "orange",
+        "owner": "1",
+        "rent": {
+          "rent": "$14",
+          "With color set": "$28",
+          "With 1 House": "$70",
+          "With 2 House": "$200",
+          "With 3 House": "$550",
+          "With 4 House": "$750",
+          "With Hotel": "$950"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 100,
+        "price": 180,
+        "mortgaged": false
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 100,
-      "price": 180,
-      "mortgaged": false
-    },
-    {
-      "position": 19,
-      "title": "New York Avenue",
-      "color": "#d68000",
-      "owner": "1",
-      "rent": {
-        "rent": "$16",
-        "With colour set": "$32",
-        "With 1 House": "$80",
-        "With 2 House": "$220",
-        "With 3 House": "$600",
-        "With 4 House": "$800",
-        "With Hotel": "$1000"
+      {
+        "position": 18,
+        "title": "Tennessee Avenue",
+        "color": "orange",
+        "owner": "1",
+        "rent": {
+          "rent": "$14",
+          "With color set": "$28",
+          "With 1 House": "$70",
+          "With 2 House": "$200",
+          "With 3 House": "$550",
+          "With 4 House": "$750",
+          "With Hotel": "$950"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 100,
+        "price": 180,
+        "mortgaged": false
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 100,
-      "price": 200,
-      "mortgaged": false
-    },
-    {
-      "position": 21,
-      "owner": "1",
-      "title": "Kentucky Avenue",
-      "color": "#9f0108",
-      "rent": {
-        "rent": "$18",
-        "With colour set": "$36",
-        "With 1 House": "$90",
-        "With 2 House": "$250",
-        "With 3 House": "$700",
-        "With 4 House": "$875",
-        "With Hotel": "$1050"
+      {
+        "position": 19,
+        "title": "New York Avenue",
+        "color": "orange",
+        "owner": "1",
+        "rent": {
+          "rent": "$16",
+          "With color set": "$32",
+          "With 1 House": "$80",
+          "With 2 House": "$220",
+          "With 3 House": "$600",
+          "With 4 House": "$800",
+          "With Hotel": "$1000"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 100,
+        "price": 200,
+        "mortgaged": false
       },
-      "upgradeCost": 150,
-      "houses": 0,
-      "hotel": 0,
-      "price": 220,
-      "mortgaged": false
-    },
-    {
-      "position": 23,
-      "owner": "1",
-      "title": "Indiana Avenue",
-      "color": "#9f0108",
-      "rent": {
-        "rent": "$18",
-        "With colour set": "$36",
-        "With 1 House": "$90",
-        "With 2 House": "$250",
-        "With 3 House": "$700",
-        "With 4 House": "$875",
-        "With Hotel": "$1050"
+      {
+        "position": 21,
+        "owner": "1",
+        "title": "Kentucky Avenue",
+        "color": "red",
+        "rent": {
+          "rent": "$18",
+          "With color set": "$36",
+          "With 1 House": "$90",
+          "With 2 House": "$250",
+          "With 3 House": "$700",
+          "With 4 House": "$875",
+          "With Hotel": "$1050"
+        },
+        "upgradeCost": 150,
+        "houses": 0,
+        "hotel": 0,
+        "price": 220,
+        "mortgaged": false
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 150,
-      "price": 220,
-      "mortgaged": false
-    },
-    {
-      "position": 24,
-      "owner": "1",
-      "title": "Illinois Avenue",
-      "color": "#9f0108",
-      "rent": {
-        "rent": "$20",
-        "With colour set": "$40",
-        "With 1 House": "$100",
-        "With 2 House": "$300",
-        "With 3 House": "$750",
-        "With 4 House": "$925",
-        "With Hotel": "$1100"
+      {
+        "position": 23,
+        "owner": "1",
+        "title": "Indiana Avenue",
+        "color": "red",
+        "rent": {
+          "rent": "$18",
+          "With color set": "$36",
+          "With 1 House": "$90",
+          "With 2 House": "$250",
+          "With 3 House": "$700",
+          "With 4 House": "$875",
+          "With Hotel": "$1050"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 150,
+        "price": 220,
+        "mortgaged": false
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 150,
-      "price": 240,
-      "mortgaged": false
-    },
-    {
-      "position": 26,
-      "owner": "1",
-      "title": "Atlantic Avenue",
-      "color": "#d6d105",
-      "rent": {
-        "rent": "$22",
-        "With colour set": "$44",
-        "With 1 House": "$110",
-        "With 2 House": "$330",
-        "With 3 House": "$800",
-        "With 4 House": "$975",
-        "With Hotel": "$1150"
+      {
+        "position": 24,
+        "owner": "1",
+        "title": "Illinois Avenue",
+        "color": "red",
+        "rent": {
+          "rent": "$20",
+          "With color set": "$40",
+          "With 1 House": "$100",
+          "With 2 House": "$300",
+          "With 3 House": "$750",
+          "With 4 House": "$925",
+          "With Hotel": "$1100"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 150,
+        "price": 240,
+        "mortgaged": false
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 150,
-      "price": 260,
-      "mortgaged": false
-    },
-    {
-      "position": 27,
-      "owner": "1",
-      "title": "Ventnor Avenue",
-      "color": "#d6d105",
-      "rent": {
-        "rent": "$22",
-        "With colour set": "$44",
-        "With 1 House": "$110",
-        "With 2 House": "$330",
-        "With 3 House": "$800",
-        "With 4 House": "$975",
-        "With Hotel": "$1150"
+      {
+        "position": 26,
+        "owner": "1",
+        "title": "Atlantic Avenue",
+        "color": "yellow",
+        "rent": {
+          "rent": "$22",
+          "With color set": "$44",
+          "With 1 House": "$110",
+          "With 2 House": "$330",
+          "With 3 House": "$800",
+          "With 4 House": "$975",
+          "With Hotel": "$1150"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 150,
+        "price": 260,
+        "mortgaged": false
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 150,
-      "price": 260,
-      "mortgaged": false
-    },
-    {
-      "position": 29,
-      "owner": "1",
-      "title": "Marvin Gardens",
-      "color": "#d6d105",
-      "rent": {
-        "rent": "$24",
-        "With colour set": "$48",
-        "With 1 House": "$120",
-        "With 2 House": "$360",
-        "With 3 House": "$850",
-        "With 4 House": "$1025",
-        "With Hotel": "$1200"
+      {
+        "position": 27,
+        "owner": "1",
+        "title": "Ventnor Avenue",
+        "color": "yellow",
+        "rent": {
+          "rent": "$22",
+          "With color set": "$44",
+          "With 1 House": "$110",
+          "With 2 House": "$330",
+          "With 3 House": "$800",
+          "With 4 House": "$975",
+          "With Hotel": "$1150"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 150,
+        "price": 260,
+        "mortgaged": false
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 150,
-      "price": 280,
-      "mortgaged": false
-    },
-    {
-      "position": 31,
-      "owner": "1",
-      "title": "Pacific Avenue",
-      "color": "#008e04",
-      "rent": {
-        "rent": "$26",
-        "With colour set": "$52",
-        "With 1 House": "$130",
-        "With 2 House": "$390",
-        "With 3 House": "$900",
-        "With 4 House": "$1100",
-        "With Hotel": "$1275"
+      {
+        "position": 29,
+        "owner": "1",
+        "title": "Marvin Gardens",
+        "color": "yellow",
+        "rent": {
+          "rent": "$24",
+          "With color set": "$48",
+          "With 1 House": "$120",
+          "With 2 House": "$360",
+          "With 3 House": "$850",
+          "With 4 House": "$1025",
+          "With Hotel": "$1200"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 150,
+        "price": 280,
+        "mortgaged": false
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 200,
-      "price": 300,
-      "mortgaged": false
-    },
-    {
-      "position": 32,
-      "owner": "1",
-      "title": "North Carolina Avenue",
-      "color": "#008e04",
-      "rent": {
-        "rent": "$26",
-        "With colour set": "$52",
-        "With 1 House": "$130",
-        "With 2 House": "$390",
-        "With 3 House": "$900",
-        "With 4 House": "$1100",
-        "With Hotel": "$1275"
+      {
+        "position": 31,
+        "owner": "1",
+        "title": "Pacific Avenue",
+        "color": "green",
+        "rent": {
+          "rent": "$26",
+          "With color set": "$52",
+          "With 1 House": "$130",
+          "With 2 House": "$390",
+          "With 3 House": "$900",
+          "With 4 House": "$1100",
+          "With Hotel": "$1275"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 200,
+        "price": 300,
+        "mortgaged": false
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 200,
-      "price": 300,
-      "mortgaged": false
-    },
-    {
-      "position": 34,
-      "owner": "1",
-      "title": "Pennsylvania Avenue",
-      "color": "#008e04",
-      "rent": {
-        "rent": "$28",
-        "With colour set": "$56",
-        "With 1 House": "$150",
-        "With 2 House": "$450",
-        "With 3 House": "$1000",
-        "With 4 House": "$1200",
-        "With Hotel": "$1400"
+      {
+        "position": 32,
+        "owner": "1",
+        "title": "North Carolina Avenue",
+        "color": "green",
+        "rent": {
+          "rent": "$26",
+          "With color set": "$52",
+          "With 1 House": "$130",
+          "With 2 House": "$390",
+          "With 3 House": "$900",
+          "With 4 House": "$1100",
+          "With Hotel": "$1275"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 200,
+        "price": 300,
+        "mortgaged": false
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 200,
-      "price": 320,
-      "mortgaged": false
-    },
-    {
-      "position": 37,
-      "owner": "1",
-      "title": "Park Place",
-      "color": "#1a2596",
-      "rent": {
-        "rent": "$35",
-        "With colour set": "$70",
-        "With 1 House": "$175",
-        "With 2 House": "$500",
-        "With 3 House": "$1100",
-        "With 4 House": "$1300",
-        "With Hotel": "$1500"
+      {
+        "position": 34,
+        "owner": "1",
+        "title": "Pennsylvania Avenue",
+        "color": "green",
+        "rent": {
+          "rent": "$28",
+          "With color set": "$56",
+          "With 1 House": "$150",
+          "With 2 House": "$450",
+          "With 3 House": "$1000",
+          "With 4 House": "$1200",
+          "With Hotel": "$1400"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 200,
+        "price": 320,
+        "mortgaged": false
       },
-      "upgradeCost": 200,
-      "houses": 0,
-      "hotel": 0,
-      "price": 350,
-      "mortgaged": false
-    },
-    {
-      "position": 39,
-      "owner": "1",
-      "title": "Boardwalk",
-      "color": "#1a2596",
-      "rent": {
-        "rent": "$50",
-        "With colour set": "$100",
-        "With 1 House": "$200",
-        "With 2 House": "$600",
-        "With 3 House": "$1400",
-        "With 4 House": "$1700",
-        "With Hotel": "$2000"
+      {
+        "position": 37,
+        "owner": "1",
+        "title": "Park Place",
+        "color": "dark-blue",
+        "rent": {
+          "rent": "$35",
+          "With color set": "$70",
+          "With 1 House": "$175",
+          "With 2 House": "$500",
+          "With 3 House": "$1100",
+          "With 4 House": "$1300",
+          "With Hotel": "$1500"
+        },
+        "upgradeCost": 200,
+        "houses": 0,
+        "hotel": 0,
+        "price": 350,
+        "mortgaged": false
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 200,
-      "price": 400,
-      "mortgaged": false
-    },
-    {
-      "position": 13,
-      "title": "States Avenue",
-      "color": "#930086",
-      "owner": "1",
-      "rent": {
-        "rent": "$10",
-        "With colour set": "$20",
-        "With 1 House": "$50",
-        "With 2 House": "$150",
-        "With 3 House": "$450",
-        "With 4 House": "$625",
-        "With Hotel": "$750"
+      {
+        "position": 39,
+        "owner": "1",
+        "title": "Boardwalk",
+        "color": "dark-blue",
+        "rent": {
+          "rent": "$50",
+          "With color set": "$100",
+          "With 1 House": "$200",
+          "With 2 House": "$600",
+          "With 3 House": "$1400",
+          "With 4 House": "$1700",
+          "With Hotel": "$2000"
+        },
+        "houses": 0,
+        "hotel": 0,
+        "upgradeCost": 200,
+        "price": 400,
+        "mortgaged": false
+      }
+    ],
+    "other": [
+      {
+        "name": "Free Parking",
+        "position": 20
       },
-      "houses": 0,
-      "hotel": 0,
-      "upgradeCost": 100,
-      "price": 140,
-      "mortgaged": false
-    }
-  ],
-  "other": [
-    {
-      "name": "Free Parking",
-      "position": 20
-    },
-    {
-      "name": "Chance",
-      "positions": [
-        7,
-        22,
-        36
-      ]
-    },
-    {
-      "name": "Community Chest",
-      "positions": [
-        2,
-        17,
-        33
-      ]
-    },
-    {
-      "name": "Income Tax",
-      "position": 4,
-      "price": 200
-    },
-    {
-      "name": "Luxury Tax",
-      "position": 38,
-      "price": 100
-    },
-    {
-      "name": "Go",
-      "description": "Collect $200 Salary",
-      "position": 0,
-      "collect": 200
-    }
-  ]
-}
+      {
+        "name": "Chance",
+        "positions": [7, 22, 36]
+      },
+      {
+        "name": "Community Chest",
+        "positions": [2, 17, 33]
+      },
+      {
+        "name": "Income Tax",
+        "position": 4,
+        "price": 200
+      },
+      {
+        "name": "Luxury Tax",
+        "position": 38,
+        "price": 100
+      },
+      {
+        "name": "Go",
+        "description": "Collect $200 Salary",
+        "position": 0,
+        "collect": 200
+      }
+    ]
+  }
+]

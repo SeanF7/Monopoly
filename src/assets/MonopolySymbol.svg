@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="6.4691324mm"
+   height="5.5467925mm"
+   viewBox="0 0 6.4691324 5.5467924"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="MonopolySymbol.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0482005"
+     inkscape:cx="46.269774"
+     inkscape:cy="103.51073"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-108.82626,-154.72456)">
+    <g
+       id="g8879">
+      <g
+         id="g8965">
+        <g
+           id="g8480">
+          <g
+             id="g8644" />
+        </g>
+        <g
+           id="g9512">
+          <g
+             id="g9505">
+            <path
+               style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0186807px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               d="m 109.67332,157.02463 1.97748,-0.003 0.12256,0.33084 -2.49575,0.0251 z"
+               id="path7863"
+               sodipodi:nodetypes="ccccc" />
+            <path
+               style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0186807px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               d="m 112.76063,157.03718 1.87708,-0.0655 0.19785,0.40614 -2.23219,-0.0126 z"
+               id="path7863-8"
+               sodipodi:nodetypes="ccccc" />
+            <path
+               style="fill:none;stroke:#000000;stroke-width:0.697212;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 109.79043,160.19205 1.01166,-4.33061 1.34888,3.26571 1.54411,-3.24796 0.76319,4.22412"
+               id="path5260"
+               sodipodi:nodetypes="ccccc" />
+            <path
+               style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0200812px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               d="m 109.31296,158.49045 5.73663,-0.053 0.22863,0.40614 h -6.42253 z"
+               id="path7863-4" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
