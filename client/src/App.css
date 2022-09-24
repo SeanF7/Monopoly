@@ -1,0 +1,76 @@
+main {
+  text-align: left;
+  vertical-align: center;
+  line-height: 10vh
+}
+
+/*
+.welcome {
+  background-image: url("src/assets/winter-neva-background.png");
+}
+*/
+
+/* centers both text and images */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.property-card{
+    background-color: #c7dec4;
+    width: 10em;
+    height: 16em;
+    outline: 4px solid black;
+}
+.header{
+    height: 20%;
+    width: 100%;
+    border-bottom: 4px solid black;
+}
+
+.property-name{
+    text-align: center;
+    padding-top: 10%;
+}
+.monopoly-symbol{
+    height: 1em;
+    width: 1em;
+}
+.price *{
+    margin: 0;
+    padding: 0;
+}
+.price{
+  display: flex;
+  justify-content: center;
+}
+.board{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.brown{
+    background-color: #614901;
+}
+.light-blue{
+    background-color: #6ba9a5;
+}
+.purple{
+    background-color: #930086;
+}
+.orange{
+    background-color: #d68000;
+}
+.red{
+    background-color: #9f0108;
+}
+.green{
+    background-color: #008e04;
+}
+.dark-blue{
+    background-color: #1a2596;
+}
+.yellow{
+    background-color: #ffee00;
+}
