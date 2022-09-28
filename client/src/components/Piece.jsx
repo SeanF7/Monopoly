@@ -19,6 +19,7 @@ function Piece() {
     await socket.emit("button_clicked", messageData);
   }
   socket.on("recieve_click", (data) => {
+    // This seems to occur more than it should if you make it console.log something
     setimgwidth(data.width);
     setimgheight(data.height);
   });

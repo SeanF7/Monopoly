@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Property(props) {
+export default function Railroad(props) {
   const [open, setOpen] = React.useState(false);
 
   const toggleClick = () => {
@@ -8,8 +8,8 @@ export default function Property(props) {
   };
   return (
     <div className="card" onClick={toggleClick}>
-      <div className={`header ${props.color}`} />
-      <h2 className="property-name">{props.name}</h2>
+      <h2 className="railroad-name">{props.name}</h2>
+      <img className="train-svg" src="./src/assets/ChooChoo.svg" />
       <div className="price">
         <img
           className="monopoly-symbol"

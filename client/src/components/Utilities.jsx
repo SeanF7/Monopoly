@@ -1,15 +1,26 @@
 import React from "react";
 
-export default function Property(props) {
+export default function Utilities_Tax(props) {
   const [open, setOpen] = React.useState(false);
 
   const toggleClick = () => {
     setOpen(!open);
   };
+  let imgPath = "";
+  let text = "";
+  switch (props.utility) {
+    case "electric":
+      imgPath = "./src/assets/Electric.png";
+      text = "Electric Company";
+      break;
+    case "water":
+      imgPath = "./src/assets/Water.png";
+      text = "Water Works";
+  }
   return (
     <div className="card" onClick={toggleClick}>
-      <div className={`header ${props.color}`} />
-      <h2 className="property-name">{props.name}</h2>
+      <h2>{text}</h2>
+      <img className={props.utility} src={imgPath} />
       <div className="price">
         <img
           className="monopoly-symbol"

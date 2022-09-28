@@ -1,7 +1,7 @@
 main {
   text-align: left;
   vertical-align: center;
-  line-height: 10vh
+  line-height: 10vh;
 }
 
 /*
@@ -17,60 +17,191 @@ main {
   margin-right: auto;
   text-align: center;
 }
-.property-card{
-    background-color: #c7dec4;
-    width: 10em;
-    height: 16em;
-    outline: 4px solid black;
+.header {
+  height: 20%;
+  width: 100%;
+  border-bottom: 4px solid black;
 }
-.header{
-    height: 20%;
-    width: 100%;
-    border-bottom: 4px solid black;
+.property-name {
+  text-align: center;
+  padding-top: 10%;
+  flex-grow: 1;
+}
+.train-svg {
+  width: 70%;
+  align-self: center;
+  padding-bottom: 20%;
 }
 
-.property-name{
-    text-align: center;
-    padding-top: 10%;
+.railroad-name {
+  text-align: center;
+  padding-top: 5%;
+  flex-grow: 1;
 }
-.monopoly-symbol{
-    height: 1em;
-    width: 1em;
+
+.monopoly-symbol {
+  height: 1em;
+  width: 1em;
 }
-.price *{
-    margin: 0;
-    padding: 0;
+.price * {
+  margin: 0;
+  padding: 0;
+  font-size: x-large;
 }
-.price{
+.price {
   display: flex;
   justify-content: center;
 }
-.board{
+.board {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(11, 1fr);
+  gap: 0px;
+  width: 50%;
+}
+.board-image {
+  grid-column: 2 / 11;
+  grid-row: 2 / 11;
+  width: 100%;
+  margin: 0;
+}
+.corner {
+  background-color: #c7dec4;
+  width: 16em;
+  height: 16em;
+  outline: 4px solid black;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
+}
+.go-to-jail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: rotate(225deg);
+}
+.cop {
+  width: 50%;
+}
+.arrow {
+  width: 70%;
+}
+.go {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.go-text {
+  font-size: 6rem;
+  margin: 0;
+  text-align: center;
+}
+.go-container {
+  position: relative;
+  top: -5%;
+  left: -5%;
+  transform: rotate(-45deg);
+}
+.collect {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0;
+}
+.jail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jail-image {
+  width: 80%;
+}
+.jail-container h1 {
+  margin: 0;
+}
+.in-jail {
+  background-color: orange;
+  align-self: flex-end;
+  width: 75%;
+  height: 75%;
+  outline: 4px solid black;
+}
+.in-jail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: rotate(45deg);
+}
+#just {
+  position: relative;
+  right: 65%;
+  bottom: 25%;
+  transform: rotate(90deg);
+}
+#visiting {
+  left: 65%;
 }
 
-.brown{
-    background-color: #614901;
+.parking-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: rotate(135deg);
 }
-.light-blue{
-    background-color: #6ba9a5;
+.parking-container h1 {
+  margin: 1rem;
 }
-.purple{
-    background-color: #930086;
+.card {
+  background-color: #c7dec4;
+  width: 100%;
+  height: 80%;
+  outline: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
-.orange{
-    background-color: #d68000;
+.community-chance {
+  width: 80%;
 }
-.red{
-    background-color: #9f0108;
+.income {
+  width: 10%;
+  flex: 1;
 }
-.green{
-    background-color: #008e04;
+.luxury {
+  width: 80%;
+  flex: 1;
 }
-.dark-blue{
-    background-color: #1a2596;
+.electric {
+  width: 50%;
+  flex: 1;
 }
-.yellow{
-    background-color: #ffee00;
+.water {
+  width: 80%;
+  flex: 1;
+}
+.car {
+  width: 70%;
+}
+.brown {
+  background-color: #614901;
+}
+.light-blue {
+  background-color: #6ba9a5;
+}
+.purple {
+  background-color: #930086;
+}
+.orange {
+  background-color: #d68000;
+}
+.red {
+  background-color: #9f0108;
+}
+.green {
+  background-color: #008e04;
+}
+.dark-blue {
+  background-color: #1a2596;
+}
+.yellow {
+  background-color: #ffee00;
 }
