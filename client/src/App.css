@@ -54,16 +54,17 @@ main {
 }
 .board {
   display: grid;
-  grid-template-columns: repeat(11, 1fr);
-  grid-template-rows: repeat(11, 1fr);
+  grid-template-columns: repeat(11, 10rem);
+  grid-template-rows: repeat(11, 16rem);
   gap: 0px;
-  width: 50%;
 }
 .board-image {
   grid-column: 2 / 11;
   grid-row: 2 / 11;
-  width: 100%;
   margin: 0;
+}
+.right {
+  transform: rotate(90deg);
 }
 .corner {
   background-color: #c7dec4;
@@ -151,8 +152,10 @@ main {
 }
 .card {
   background-color: #c7dec4;
-  width: 100%;
-  height: 80%;
+  /* width: 100%;
+  height: 80%; */
+  width: 10rem;
+  height: 16rem;
   outline: 4px solid black;
   display: flex;
   flex-direction: column;

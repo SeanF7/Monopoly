@@ -4,7 +4,7 @@
     "utilities": [
       {
         "name": "Electric Company",
-        "owner": null,
+        "type": "electric",
         "position": 12,
         "description": "If one \"Utility\" is owned rent is 4 times amount shown on dice. If both \"Utilities\" are owned rent is 10 times the amount shown on dice.",
         "price": 150,
@@ -12,7 +12,7 @@
       },
       {
         "name": "Water Works",
-        "owner": null,
+        "type": "water",
         "position": 28,
         "description": "If one \"Utility\" is owned rent is 4 times amount shown on dice. If both \"Utilities\" are owned rent is 10 times the amount shown on dice.",
         "price": 150,
@@ -21,7 +21,7 @@
     ],
     "trainstations": [
       {
-        "name": "Reading Railroad",
+        "title": "Reading Railroad",
         "owner": null,
         "position": 5,
         "rent": {
@@ -515,51 +515,35 @@
         "mortgaged": false
       }
     ],
-    "other": [
-      {
+    "other": {
+      "parking": {
         "name": "Free Parking",
         "position": 20
       },
-      {
-        "name": "Chance",
-        "position": 7
-      },
-      {
-        "name": "Chance",
-        "position": 22
-      },
-      {
-        "name": "Chance",
-        "position": 36
-      },
-      {
-        "name": "Community Chest",
-        "position": 2
-      },
-      {
-        "name": "Community Chest",
-        "position": 17
-      },
-      {
-        "name": "Community Chest",
-        "position": 33
-      },
-      {
-        "name": "Income Tax",
-        "position": 4,
-        "price": 200
-      },
-      {
-        "name": "Luxury Tax",
-        "position": 38,
-        "price": 100
-      },
-      {
-        "name": "Go",
-        "description": "Collect $200 Salary",
+      "community": { "title": "Community Chest", "positions": [2, 17, 33] },
+      "chance": { "title": "Chance", "positions": [7, 2, 36] },
+      "taxes": [
+        {
+          "type": "luxury",
+          "position": 4,
+          "price": 100
+        },
+        {
+          "type": "income",
+          "position": 38,
+          "price": 200
+        }
+      ],
+      "go": {
         "position": 0,
         "collect": 200
+      },
+      "jail": {
+        "position": 10
+      },
+      "go_to_jail": {
+        "position": 30
       }
-    ]
+    }
   }
 ]

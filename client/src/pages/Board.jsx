@@ -12,7 +12,6 @@ import Utility from "../components/Utilities.jsx";
 import BoardCenter from "../components/BoardCenter.jsx";
 
 export default function Board(props) {
-  let order = new Map();
   let houses = [];
   let trainstations = [];
   let utilities = [];
@@ -23,25 +22,6 @@ export default function Board(props) {
     utilities = data.utilities;
     others = data.other;
   });
-  houses.forEach((house) => {
-    order.set(house.position, house);
-  });
-
-  trainstations.forEach((train) => {
-    order.set(train.position, train);
-  });
-
-  utilities.forEach((utility) => {
-    order.set(utility.position, utility);
-  });
-
-  others.forEach((other) => {
-    order.set(other.position, other);
-  });
-
-  for (let i = 0; i <= order.size; i++) {
-    console.log(order.get(i));
-  }
   return (
     <div className="board">
       {houses.map(function (item) {
@@ -51,22 +31,55 @@ export default function Board(props) {
             color={item.color}
             price={item.price}
             key={item.position}
+            position={item.position}
           />
         );
       })}
+      {trainstations.map(function (station) {
+        return (
+          <Railroad
+            name={station.title}
+            price={station.price}
+            key={station.position}
+          />
+        );
+      })}
+      {others.community.positions.map(function (pos) {
+        return (
+          <Chance_Community
+            img="community-chest"
+            position={pos}
+            name={others.community.title}
+          />
+        );
+      })}
+      {others.chance.positions.map(function (pos) {
+        return (
+          <Chance_Community
+            img="chance"
+            position={pos}
+            name={others.chance.title}
+          />
+        );
+      })}
+      <GoToJail position={others.go_to_jail.position} />
+      <Go position={others.go.position} />
+      <Jail position={others.jail.position} />
+      <FreeParking position={others.parking.position} />
+      {others.taxes.map(function (tax) {
+        return <Tax tax={tax.type} position={tax.position} name={tax.name} />;
+      })}
+      {utilities.map(function (utility) {
+        return (
+          <Utility
+            utility={utility.type}
+            position={utility.position}
+            price={utility.price}
+          />
+        );
+      })}
+
       <BoardCenter />
-      <Railroad name="Reading Railroad" price="200" />
-      <Railroad name="Short Line" price="200" />
-      <GoToJail />
-      <Go />
-      <Jail />
-      <FreeParking />
-      <Chance_Community img="community-chest" />
-      <Chance_Community img="chance" />
-      <Tax tax="income" price="200" />
-      <Tax tax="luxury" price="100" />
-      <Utility utility="electric" price="150" />
-      <Utility utility="water" price="150" />
     </div>
   );
 }

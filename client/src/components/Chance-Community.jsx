@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function Utilities_Tax(props) {
+export default function Chance_Community(props) {
   const [open, setOpen] = useState(false);
 
   const toggleClick = () => {
