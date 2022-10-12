@@ -7,7 +7,7 @@ export default function Jail(props) {
     setOpen(!open);
   };
   return (
-    <div className="corner" onClick={toggleClick}>
+    <div className="corner jail" onClick={toggleClick}>
       <div className="jail-container">
         <div className="in-jail">
           <div className="in-jail-container">

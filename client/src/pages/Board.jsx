@@ -41,6 +41,7 @@ export default function Board(props) {
             name={station.title}
             price={station.price}
             key={station.position}
+            position={station.position}
           />
         );
       })}
@@ -67,7 +68,14 @@ export default function Board(props) {
       <Jail position={others.jail.position} />
       <FreeParking position={others.parking.position} />
       {others.taxes.map(function (tax) {
-        return <Tax tax={tax.type} position={tax.position} name={tax.name} />;
+        return (
+          <Tax
+            tax={tax.type}
+            position={tax.position}
+            name={tax.name}
+            price={tax.price}
+          />
+        );
       })}
       {utilities.map(function (utility) {
         return (
@@ -78,7 +86,6 @@ export default function Board(props) {
           />
         );
       })}
-
       <BoardCenter />
     </div>
   );

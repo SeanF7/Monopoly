@@ -3,7 +3,7 @@
     "source": "https://monopoly.fandom.com/wiki/List_of_Monopoly_Properties",
     "utilities": [
       {
-        "name": "Electric Company",
+        "name": "ELECTRIC COMPANY",
         "type": "electric",
         "position": 12,
         "description": "If one \"Utility\" is owned rent is 4 times amount shown on dice. If both \"Utilities\" are owned rent is 10 times the amount shown on dice.",
@@ -11,7 +11,7 @@
         "mortgaged": false
       },
       {
-        "name": "Water Works",
+        "name": "WATER WORKS",
         "type": "water",
         "position": 28,
         "description": "If one \"Utility\" is owned rent is 4 times amount shown on dice. If both \"Utilities\" are owned rent is 10 times the amount shown on dice.",
@@ -21,7 +21,7 @@
     ],
     "trainstations": [
       {
-        "title": "Reading Railroad",
+        "title": "READING RAILROAD",
         "owner": null,
         "position": 5,
         "rent": {
@@ -36,7 +36,7 @@
       {
         "position": 15,
         "owner": null,
-        "title": "Pennsylvania Railroad",
+        "title": "PENNSYLVANIA RAILROAD",
         "rent": {
           "rent": "$25",
           "If 2 Stations are Owned": "$50",
@@ -49,7 +49,7 @@
       {
         "position": 25,
         "owner": null,
-        "title": "B. & O. Railroad",
+        "title": "B.&O. RAILROAD",
         "rent": {
           "rent": "$25",
           "If 2 Stations are Owned": "$50",
@@ -62,7 +62,7 @@
       {
         "position": 35,
         "owner": null,
-        "title": "Short Line",
+        "title": "SHORT LINE",
         "rent": {
           "rent": "$25",
           "If 2 Stations are Owned": "$50",
@@ -76,7 +76,7 @@
     "properties": [
       {
         "position": 1,
-        "title": "Mediterranean Avenue",
+        "title": "MEDITERRANEAN AVENUE",
         "color": "brown",
         "owner": "1",
         "rent": {
@@ -96,7 +96,7 @@
       },
       {
         "position": 3,
-        "title": "Baltic Avenue",
+        "title": "BALTIC AVENUE",
         "color": "brown",
         "owner": "1",
         "rent": {
@@ -116,7 +116,7 @@
       },
       {
         "position": 6,
-        "title": "Oriental Avenue",
+        "title": "ORIENTAL AVENUE",
         "color": "light-blue",
         "owner": "1",
         "rent": {
@@ -136,7 +136,7 @@
       },
       {
         "position": 8,
-        "title": "Vermont Avenue",
+        "title": "VERMONT AVENUE",
         "color": "light-blue",
         "owner": "1",
         "rent": {
@@ -156,7 +156,7 @@
       },
       {
         "position": 9,
-        "title": "Connecticut Avenue",
+        "title": "CONNECTICUT AVENUE",
         "color": "light-blue",
         "owner": "1",
         "rent": {
@@ -176,7 +176,7 @@
       },
       {
         "position": 11,
-        "title": "St. Charles Place",
+        "title": "ST.CHARLES PLACE",
         "color": "purple",
         "owner": "1",
         "rent": {
@@ -196,7 +196,7 @@
       },
       {
         "position": 13,
-        "title": "States Avenue",
+        "title": "STATES AVENUE",
         "color": "purple",
         "owner": "1",
         "rent": {
@@ -216,7 +216,7 @@
       },
       {
         "position": 14,
-        "title": "Virginia Avenue",
+        "title": "VIRGINIA AVENUE",
         "color": "purple",
         "owner": "1",
         "rent": {
@@ -236,7 +236,7 @@
       },
       {
         "position": 16,
-        "title": "St. James Place",
+        "title": "ST.JAMES PLACE",
         "color": "orange",
         "owner": "1",
         "rent": {
@@ -256,7 +256,7 @@
       },
       {
         "position": 18,
-        "title": "Tennessee Avenue",
+        "title": "TENNESSEE AVENUE",
         "color": "orange",
         "owner": "1",
         "rent": {
@@ -276,7 +276,7 @@
       },
       {
         "position": 19,
-        "title": "New York Avenue",
+        "title": "NEW YORK AVENUE",
         "color": "orange",
         "owner": "1",
         "rent": {
@@ -297,7 +297,7 @@
       {
         "position": 21,
         "owner": "1",
-        "title": "Kentucky Avenue",
+        "title": "KENTUCKY AVENUE",
         "color": "red",
         "rent": {
           "rent": "$18",
@@ -317,7 +317,7 @@
       {
         "position": 23,
         "owner": "1",
-        "title": "Indiana Avenue",
+        "title": "INDIANA AVENUE",
         "color": "red",
         "rent": {
           "rent": "$18",
@@ -337,7 +337,7 @@
       {
         "position": 24,
         "owner": "1",
-        "title": "Illinois Avenue",
+        "title": "ILLINOIS AVENUE",
         "color": "red",
         "rent": {
           "rent": "$20",
@@ -357,7 +357,7 @@
       {
         "position": 26,
         "owner": "1",
-        "title": "Atlantic Avenue",
+        "title": "ATLANTIC AVENUE",
         "color": "yellow",
         "rent": {
           "rent": "$22",
@@ -377,7 +377,7 @@
       {
         "position": 27,
         "owner": "1",
-        "title": "Ventnor Avenue",
+        "title": "VENTNOR AVENUE",
         "color": "yellow",
         "rent": {
           "rent": "$22",
@@ -397,7 +397,7 @@
       {
         "position": 29,
         "owner": "1",
-        "title": "Marvin Gardens",
+        "title": "MARVIN GARDENS",
         "color": "yellow",
         "rent": {
           "rent": "$24",
@@ -417,7 +417,7 @@
       {
         "position": 31,
         "owner": "1",
-        "title": "Pacific Avenue",
+        "title": "PACIFIC AVENUE",
         "color": "green",
         "rent": {
           "rent": "$26",
@@ -437,7 +437,7 @@
       {
         "position": 32,
         "owner": "1",
-        "title": "North Carolina Avenue",
+        "title": "NORTH CAROLINA AVENUE",
         "color": "green",
         "rent": {
           "rent": "$26",
@@ -457,7 +457,7 @@
       {
         "position": 34,
         "owner": "1",
-        "title": "Pennsylvania Avenue",
+        "title": "PENNSYLVANIA AVENUE",
         "color": "green",
         "rent": {
           "rent": "$28",
@@ -477,7 +477,7 @@
       {
         "position": 37,
         "owner": "1",
-        "title": "Park Place",
+        "title": "PARK PLACE",
         "color": "dark-blue",
         "rent": {
           "rent": "$35",
@@ -497,7 +497,7 @@
       {
         "position": 39,
         "owner": "1",
-        "title": "Boardwalk",
+        "title": "BOARDWALK",
         "color": "dark-blue",
         "rent": {
           "rent": "$50",
@@ -517,20 +517,20 @@
     ],
     "other": {
       "parking": {
-        "name": "Free Parking",
+        "name": "FREE PARKING",
         "position": 20
       },
-      "community": { "title": "Community Chest", "positions": [2, 17, 33] },
-      "chance": { "title": "Chance", "positions": [7, 2, 36] },
+      "community": { "title": "COMMUNITY CHEST", "positions": [2, 17, 33] },
+      "chance": { "title": "CHANCE", "positions": [7, 22, 36] },
       "taxes": [
         {
           "type": "luxury",
-          "position": 4,
+          "position": 38,
           "price": 100
         },
         {
           "type": "income",
-          "position": 38,
+          "position": 4,
           "price": 200
         }
       ],

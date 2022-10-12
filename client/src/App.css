@@ -18,14 +18,15 @@ main {
   text-align: center;
 }
 .header {
-  height: 20%;
+  height: 1rem;
   width: 100%;
   border-bottom: 4px solid black;
 }
 .property-name {
   text-align: center;
-  padding-top: 10%;
+  padding: 10% 10% 0% 10%;
   flex-grow: 1;
+  font-size: 0.7rem;
 }
 .train-svg {
   width: 70%;
@@ -36,6 +37,7 @@ main {
 .railroad-name {
   text-align: center;
   padding-top: 5%;
+  font-size: 0.7rem;
   flex-grow: 1;
 }
 
@@ -45,40 +47,77 @@ main {
 }
 .price * {
   margin: 0;
-  padding: 0;
-  font-size: x-large;
+  font-size: 0.7rem;
+}
+.community-text {
+  font-size: 0.7rem;
 }
 .price {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+#pay {
+  padding-right: 3px;
 }
 .board {
   display: grid;
-  grid-template-columns: repeat(11, 10rem);
-  grid-template-rows: repeat(11, 16rem);
+  grid-template-columns: repeat(13, 4rem);
+  grid-template-rows: repeat(13, 4rem);
   gap: 0px;
 }
 .board-image {
-  grid-column: 2 / 11;
-  grid-row: 2 / 11;
+  grid-column: 3 / 12;
+  grid-row: 3 / 12;
+  width: 100%;
+  height: 100%;
   margin: 0;
+  z-index: -1;
 }
+/* 
+TranslateZ seems to fix blurry text on some browsers caused by rotation.
+Solution found from:https://stackoverflow.com/questions/20326220/blurry-text-on-transformrotate-in-chrome
+*/
 .right {
-  transform: rotate(90deg);
+  transform: rotate(-90deg) translateZ(0);
+  transform-origin: top left;
+}
+.top {
+  transform: rotate(180deg) translateZ(0);
+}
+.left {
+  transform: rotate(90deg) translateZ(0);
+  transform-origin: bottom left;
+}
+.popup {
+  z-index: 999;
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
 }
 .corner {
   background-color: #c7dec4;
-  width: 16em;
-  height: 16em;
   outline: 4px solid black;
   display: flex;
   justify-content: center;
+  font-size: 70%;
+  z-index: 1;
 }
 .go-to-jail-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   transform: rotate(225deg);
+}
+.go-to-jail {
+  grid-column: 12 / span 2;
+  grid-row: 1 / span 2;
+  font-size: 0.5rem;
+}
+.go {
+  grid-row: 12 / span 2;
+  grid-column: 12 / span 2;
+  font-size: 0.45rem;
 }
 .cop {
   width: 50%;
@@ -92,25 +131,25 @@ main {
   align-items: center;
 }
 .go-text {
-  font-size: 6rem;
+  font-size: 2rem;
   margin: 0;
   text-align: center;
 }
 .go-container {
-  position: relative;
-  top: -5%;
-  left: -5%;
   transform: rotate(-45deg);
 }
 .collect {
   text-align: center;
-  font-size: 1.5rem;
   margin: 0;
 }
 .jail-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.jail {
+  grid-column: 1 / span 2;
+  grid-row: 12 / span 2;
 }
 .jail-image {
   width: 80%;
@@ -138,9 +177,14 @@ main {
   transform: rotate(90deg);
 }
 #visiting {
-  left: 65%;
+  position: relative;
+  bottom: 30%;
 }
 
+.parking {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
 .parking-container {
   display: flex;
   flex-direction: column;
@@ -148,25 +192,30 @@ main {
   transform: rotate(135deg);
 }
 .parking-container h1 {
-  margin: 1rem;
+  margin: 0.1rem;
+  font-size: 1rem;
+}
+.card-holder {
+  display: flex;
 }
 .card {
   background-color: #c7dec4;
-  /* width: 100%;
-  height: 80%; */
-  width: 10rem;
-  height: 16rem;
   outline: 4px solid black;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
+  word-break: break-word;
+  word-spacing: 9999rem;
+  font-size: 50%;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
 }
 .community-chance {
-  width: 80%;
+  width: 95%;
 }
 .income {
-  width: 10%;
+  width: 20%;
   flex: 1;
 }
 .luxury {
