@@ -1,4 +1,5 @@
 import React from "react";
+import { MagnifiedProperty } from "../components/Property.jsx";
 
 export default function PropertyPopup({ show, info }) {
   if (!show) {
@@ -6,8 +7,11 @@ export default function PropertyPopup({ show, info }) {
   }
   return (
     <div className="popup">
-      {console.log("hello")}
-      <div>{JSON.stringify(info)}</div>
+      <MagnifiedProperty
+        name={info.title}
+        color={info.color}
+        price={info.price}
+      />
     </div>
   );
 }
