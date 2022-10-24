@@ -33,6 +33,7 @@ export default function Board(props) {
     }
   };
   const handleHover = (value) => () => {
+    console.log(value);
     if (value) {
       setMagnify(true);
       setSelectedInfo(value);
@@ -65,31 +66,55 @@ export default function Board(props) {
               price={station.price}
               key={station.position}
               position={station.position}
+              onClick={handleClick(station)}
+              onMouseEnter={handleHover(station)}
+              onMouseLeave={handleHover()}
             />
           );
         })}
         {others.community.positions.map(function (pos) {
           return (
             <Chance_Community
-              img="community-chest"
+              img={others.community.type}
               position={pos}
               name={others.community.title}
+              onClick={handleClick(others.community)}
+              onMouseEnter={handleHover(others.community)}
+              onMouseLeave={handleHover()}
             />
           );
         })}
         {others.chance.positions.map(function (pos) {
           return (
             <Chance_Community
-              img="chance"
+              img={others.chance.type}
               position={pos}
               name={others.chance.title}
+              onClick={handleClick(others.chance)}
+              onMouseEnter={handleHover(others.chance)}
+              onMouseLeave={handleHover()}
             />
           );
         })}
-        <GoToJail position={others.go_to_jail.position} />
-        <Go position={others.go.position} />
-        <Jail position={others.jail.position} />
-        <FreeParking position={others.parking.position} />
+        <GoToJail
+          position={others.go_to_jail.position}
+          onMouseEnter={handleHover(others.go_to_jail)}
+          onMouseLeave={handleHover()}
+        />
+        <Go
+          position={others.go.position}
+          onMouseEnter={handleHover(others.go)}
+        />
+        <Jail
+          position={others.jail.position}
+          onMouseEnter={handleHover(others.jail)}
+          onMouseLeave={handleHover()}
+        />
+        <FreeParking
+          position={others.parking.position}
+          onMouseEnter={handleHover(others.parking)}
+          onMouseLeave={handleHover()}
+        />
         {others.taxes.map(function (tax) {
           return (
             <Tax
@@ -97,15 +122,21 @@ export default function Board(props) {
               position={tax.position}
               name={tax.name}
               price={tax.price}
+              onClick={handleClick(tax)}
+              onMouseEnter={handleHover(tax)}
+              onMouseLeave={handleHover()}
             />
           );
         })}
         {utilities.map(function (utility) {
           return (
             <Utility
-              utility={utility.type}
+              name={utility.name}
               position={utility.position}
               price={utility.price}
+              onClick={handleClick(utility)}
+              onMouseEnter={handleHover(utility)}
+              onMouseLeave={handleHover()}
             />
           );
         })}

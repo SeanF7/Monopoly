@@ -2,26 +2,31 @@ import React, { useState } from "react";
 import Helper from "../util/Helper.js";
 
 export default function Chance_Community(props) {
-  const [open, setOpen] = useState(false);
-
-  const toggleClick = () => {
-    setOpen(!open);
-  };
   let imgPath = "";
   let text = "";
+  let classes;
+  let style;
   switch (props.img) {
-    case "community-chest":
+    case "community":
       imgPath = "./src/assets/Community-Chest.png";
-      text = "Community Chest";
+      text = "COMMUNITY CHEST";
       break;
     case "chance":
       imgPath = "./src/assets/chance.png";
-      text = "Chance";
+      text = "CHANCE";
   }
-
-  const [classes, style] = Helper.positionCards(props.position);
+  if (props.dontStyle) {
+  } else {
+    [classes, style] = Helper.positionCards(props.position);
+  }
   return (
-    <div className={`card ${classes}`} onClick={toggleClick} style={style}>
+    <div
+      className={`card ${classes}`}
+      style={style}
+      onClick={props.onClick}
+      onMouseEnter={props.onMouseEnter}
+      onMouseLeave={props.onMouseLeave}
+    >
       <h2 className="community-text">{text}</h2>
       <div className="price">
         <img className="community-chance" src={imgPath} />

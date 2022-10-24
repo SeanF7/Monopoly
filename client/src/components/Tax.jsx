@@ -2,13 +2,10 @@ import React from "react";
 import Helper from "../util/Helper.js";
 
 export default function Utilities_Tax(props) {
-  const [open, setOpen] = React.useState(false);
-
-  const toggleClick = () => {
-    setOpen(!open);
-  };
   let imgPath = "";
   let text = "";
+  let classes;
+  let style;
   switch (props.tax) {
     case "income":
       imgPath = "./src/assets/income.svg";
@@ -18,11 +15,19 @@ export default function Utilities_Tax(props) {
       imgPath = "./src/assets/luxury.png";
       text = "Luxury Tax";
   }
-
-  const [classes, style] = Helper.positionCards(props.position);
+  if (props.dontStyle) {
+  } else {
+    [classes, style] = Helper.positionCards(props.position);
+  }
 
   return (
-    <div className={`card ${classes}`} onClick={toggleClick} style={style}>
+    <div
+      className={`card ${classes}`}
+      style={style}
+      onClick={props.onClick}
+      onMouseEnter={props.onMouseEnter}
+      onMouseLeave={props.onMouseLeave}
+    >
       <h2>{text}</h2>
       <img className={props.tax} src={imgPath} />
       <div className="price">

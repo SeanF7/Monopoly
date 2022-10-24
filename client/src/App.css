@@ -90,12 +90,9 @@ Solution found from:https://stackoverflow.com/questions/20326220/blurry-text-on-
   transform-origin: bottom left;
 }
 .popup {
-  position: fixed;
+  position: relative;
+  left: -50%;
   margin: auto;
-  width: 10%;
-  height: 30%;
-  align-self: center;
-  justify-self: center;
   background-color: rebeccapurple;
 }
 .popup > * {
@@ -105,10 +102,10 @@ Solution found from:https://stackoverflow.com/questions/20326220/blurry-text-on-
 .popup * {
   font-size: 1.2rem;
 }
+
 #board-container {
   display: flex;
-  align-content: center;
-  justify-content: center;
+  align-items: center;
 }
 .corner {
   background-color: #c7dec4;
@@ -130,6 +127,9 @@ Solution found from:https://stackoverflow.com/questions/20326220/blurry-text-on-
   font-size: 0.5rem;
 }
 .go {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   grid-row: 12 / span 2;
   grid-column: 12 / span 2;
   font-size: 0.45rem;
@@ -139,11 +139,6 @@ Solution found from:https://stackoverflow.com/questions/20326220/blurry-text-on-
 }
 .arrow {
   width: 70%;
-}
-.go {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .go-text {
   font-size: 2rem;
@@ -216,12 +211,12 @@ Solution found from:https://stackoverflow.com/questions/20326220/blurry-text-on-
 .card {
   background-color: #c7dec4;
   outline: 4px solid black;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   word-break: break-word;
-  word-spacing: 9999rem;
   font-size: 50%;
   font-weight: bold;
   font-family: "Courier New", Courier, monospace;

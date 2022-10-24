@@ -2,28 +2,33 @@ import React from "react";
 import Helper from "../util/Helper.js";
 
 export default function Utilities_Tax(props) {
-  const [open, setOpen] = React.useState(false);
-
-  const toggleClick = () => {
-    setOpen(!open);
-  };
   let imgPath = "";
-  let text = "";
-  switch (props.utility) {
-    case "electric":
+  let utility = "";
+  let classes;
+  let style;
+  switch (props.name) {
+    case "ELECTRIC COMPANY":
       imgPath = "./src/assets/Electric.png";
-      text = "Electric Company";
+      utility = "electric";
       break;
-    case "water":
+    case "WATER WORKS":
       imgPath = "./src/assets/Water.png";
-      text = "Water Works";
+      utility = "water";
   }
-
-  const [classes, style] = Helper.positionCards(props.position);
+  if (props.dontStyle) {
+  } else {
+    [classes, style] = Helper.positionCards(props.position);
+  }
   return (
-    <div className={`card ${classes}`} onClick={toggleClick} style={style}>
-      <h2>{text}</h2>
-      <img className={props.utility} src={imgPath} />
+    <div
+      className={`card ${classes}`}
+      style={style}
+      onClick={props.onClick}
+      onMouseEnter={props.onMouseEnter}
+      onMouseLeave={props.onMouseLeave}
+    >
+      <h2>{props.name}</h2>
+      <img className={utility} src={imgPath} />
       <div className="price">
         <img
           className="monopoly-symbol"

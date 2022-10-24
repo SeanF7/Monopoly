@@ -2,14 +2,20 @@ import React from "react";
 import Helper from "../util/Helper.js";
 
 export default function Railroad(props) {
-  const [open, setOpen] = React.useState(false);
-
-  const toggleClick = () => {
-    setOpen(!open);
-  };
-  const [classes, style] = Helper.positionCards(props.position);
+  let classes;
+  let style;
+  if (props.dontStyle) {
+  } else {
+    [classes, style] = Helper.positionCards(props.position);
+  }
   return (
-    <div className={`card ${classes}`} onClick={toggleClick} style={style}>
+    <div
+      className={`card ${classes}`}
+      style={style}
+      onClick={props.onClick}
+      onMouseEnter={props.onMouseEnter}
+      onMouseLeave={props.onMouseLeave}
+    >
       <h2 className="railroad-name">{props.name}</h2>
       <img className="train-svg" src="./src/assets/ChooChoo.svg" />
       <div className="price">

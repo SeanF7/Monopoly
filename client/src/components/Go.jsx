@@ -1,13 +1,12 @@
 import React from "react";
 
 export default function Go(props) {
-  const [open, setOpen] = React.useState(false);
-
-  const toggleClick = () => {
-    setOpen(!open);
-  };
   return (
-    <div className="corner go" onClick={toggleClick}>
+    <div
+      className="corner go"
+      onMouseEnter={props.onMouseEnter}
+      onMouseLeave={props.onMouseLeave}
+    >
       <div className="go-container">
         <h1 className="collect">
           Collect <br />

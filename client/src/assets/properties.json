@@ -4,7 +4,7 @@
     "utilities": [
       {
         "name": "ELECTRIC COMPANY",
-        "type": "electric",
+        "type": "utility",
         "position": 12,
         "description": "If one \"Utility\" is owned rent is 4 times amount shown on dice. If both \"Utilities\" are owned rent is 10 times the amount shown on dice.",
         "price": 150,
@@ -12,7 +12,7 @@
       },
       {
         "name": "WATER WORKS",
-        "type": "water",
+        "type": "utility",
         "position": 28,
         "description": "If one \"Utility\" is owned rent is 4 times amount shown on dice. If both \"Utilities\" are owned rent is 10 times the amount shown on dice.",
         "price": 150,
@@ -22,6 +22,7 @@
     "trainstations": [
       {
         "title": "READING RAILROAD",
+        "type": "railroad",
         "owner": null,
         "position": 5,
         "rent": {
@@ -37,6 +38,7 @@
         "position": 15,
         "owner": null,
         "title": "PENNSYLVANIA RAILROAD",
+        "type": "railroad",
         "rent": {
           "rent": "$25",
           "If 2 Stations are Owned": "$50",
@@ -50,6 +52,7 @@
         "position": 25,
         "owner": null,
         "title": "B.&O. RAILROAD",
+        "type": "railroad",
         "rent": {
           "rent": "$25",
           "If 2 Stations are Owned": "$50",
@@ -63,6 +66,7 @@
         "position": 35,
         "owner": null,
         "title": "SHORT LINE",
+        "type": "railroad",
         "rent": {
           "rent": "$25",
           "If 2 Stations are Owned": "$50",
@@ -76,6 +80,7 @@
     "properties": [
       {
         "position": 1,
+        "type": "property",
         "title": "MEDITERRANEAN AVENUE",
         "color": "brown",
         "owner": "1",
@@ -96,6 +101,7 @@
       },
       {
         "position": 3,
+        "type": "property",
         "title": "BALTIC AVENUE",
         "color": "brown",
         "owner": "1",
@@ -116,6 +122,7 @@
       },
       {
         "position": 6,
+        "type": "property",
         "title": "ORIENTAL AVENUE",
         "color": "light-blue",
         "owner": "1",
@@ -136,6 +143,7 @@
       },
       {
         "position": 8,
+        "type": "property",
         "title": "VERMONT AVENUE",
         "color": "light-blue",
         "owner": "1",
@@ -156,6 +164,7 @@
       },
       {
         "position": 9,
+        "type": "property",
         "title": "CONNECTICUT AVENUE",
         "color": "light-blue",
         "owner": "1",
@@ -176,6 +185,7 @@
       },
       {
         "position": 11,
+        "type": "property",
         "title": "ST.CHARLES PLACE",
         "color": "purple",
         "owner": "1",
@@ -196,6 +206,7 @@
       },
       {
         "position": 13,
+        "type": "property",
         "title": "STATES AVENUE",
         "color": "purple",
         "owner": "1",
@@ -216,6 +227,7 @@
       },
       {
         "position": 14,
+        "type": "property",
         "title": "VIRGINIA AVENUE",
         "color": "purple",
         "owner": "1",
@@ -236,6 +248,7 @@
       },
       {
         "position": 16,
+        "type": "property",
         "title": "ST.JAMES PLACE",
         "color": "orange",
         "owner": "1",
@@ -256,6 +269,7 @@
       },
       {
         "position": 18,
+        "type": "property",
         "title": "TENNESSEE AVENUE",
         "color": "orange",
         "owner": "1",
@@ -276,6 +290,7 @@
       },
       {
         "position": 19,
+        "type": "property",
         "title": "NEW YORK AVENUE",
         "color": "orange",
         "owner": "1",
@@ -296,6 +311,7 @@
       },
       {
         "position": 21,
+        "type": "property",
         "owner": "1",
         "title": "KENTUCKY AVENUE",
         "color": "red",
@@ -316,6 +332,7 @@
       },
       {
         "position": 23,
+        "type": "property",
         "owner": "1",
         "title": "INDIANA AVENUE",
         "color": "red",
@@ -336,6 +353,7 @@
       },
       {
         "position": 24,
+        "type": "property",
         "owner": "1",
         "title": "ILLINOIS AVENUE",
         "color": "red",
@@ -356,6 +374,7 @@
       },
       {
         "position": 26,
+        "type": "property",
         "owner": "1",
         "title": "ATLANTIC AVENUE",
         "color": "yellow",
@@ -376,6 +395,7 @@
       },
       {
         "position": 27,
+        "type": "property",
         "owner": "1",
         "title": "VENTNOR AVENUE",
         "color": "yellow",
@@ -396,6 +416,7 @@
       },
       {
         "position": 29,
+        "type": "property",
         "owner": "1",
         "title": "MARVIN GARDENS",
         "color": "yellow",
@@ -416,6 +437,7 @@
       },
       {
         "position": 31,
+        "type": "property",
         "owner": "1",
         "title": "PACIFIC AVENUE",
         "color": "green",
@@ -436,6 +458,7 @@
       },
       {
         "position": 32,
+        "type": "property",
         "owner": "1",
         "title": "NORTH CAROLINA AVENUE",
         "color": "green",
@@ -456,6 +479,7 @@
       },
       {
         "position": 34,
+        "type": "property",
         "owner": "1",
         "title": "PENNSYLVANIA AVENUE",
         "color": "green",
@@ -476,6 +500,7 @@
       },
       {
         "position": 37,
+        "type": "property",
         "owner": "1",
         "title": "PARK PLACE",
         "color": "dark-blue",
@@ -496,6 +521,7 @@
       },
       {
         "position": 39,
+        "type": "property",
         "owner": "1",
         "title": "BOARDWALK",
         "color": "dark-blue",
@@ -518,10 +544,19 @@
     "other": {
       "parking": {
         "name": "FREE PARKING",
+        "type": "parking",
         "position": 20
       },
-      "community": { "title": "COMMUNITY CHEST", "positions": [2, 17, 33] },
-      "chance": { "title": "CHANCE", "positions": [7, 22, 36] },
+      "community": {
+        "title": "COMMUNITY CHEST",
+        "type": "community",
+        "positions": [2, 17, 33]
+      },
+      "chance": {
+        "title": "CHANCE",
+        "type": "chance",
+        "positions": [7, 22, 36]
+      },
       "taxes": [
         {
           "type": "luxury",
@@ -535,13 +570,16 @@
         }
       ],
       "go": {
+        "type": "go",
         "position": 0,
         "collect": 200
       },
       "jail": {
+        "type": "jail",
         "position": 10
       },
       "go_to_jail": {
+        "type": "go_to_jail",
         "position": 30
       }
     }
