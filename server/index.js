@@ -22,9 +22,8 @@ io.on("connection", (socket) => {
     console.log(`User with ID: ${socket.id} joined room: ${data}`);
   });
 
-  socket.on("button_clicked", (data) => {
-    socket.to(data.room).emit("recieve_click", data);
-    console.log("CLICKED");
+  socket.on("send_message", (data) => {
+    socket.to(data.room).emit("receive_message", data);
   });
 
   socket.on("disconnect", () => {
