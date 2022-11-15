@@ -9,9 +9,9 @@ export default function FreeParking(props) {
       onMouseLeave={props.onMouseLeave}
     >
       <div className="parking-container">
-        <h1>Free</h1>
+        <h1 className="parking-text">Free</h1>
         <img className="car" src="./src/assets/freeparking.gif" />
-        <h1>Parking</h1>
+        <h1 className="parking-text">Parking</h1>
       </div>
     </div>
   );
