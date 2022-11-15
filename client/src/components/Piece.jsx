@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import io from "socket.io-client";
 // https://dev.to/bravemaster619/how-to-use-socket-io-client-correctly-in-react-app-o65
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("http://192.168.206.108:3001");
 socket.emit("join_room", "1");
 function Piece() {
   const [imgwidth, setimgwidth] = useState(100);

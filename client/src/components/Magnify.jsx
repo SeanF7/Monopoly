@@ -16,70 +16,55 @@ export default function PropertyPopup({ show, info }) {
   if (info.type == "property") {
     return (
       <div className="popup">
-        <Property
-          name={info.title}
-          color={info.color}
-          price={info.price}
-          dontStyle={true}
-        />
+        <Property name={info.title} color={info.color} price={info.price} />
       </div>
     );
   } else if (info.type == "railroad") {
     return (
       <div className="popup">
-        <Railroad name={info.title} price={info.price} dontStyle={true} />
+        <Railroad name={info.title} price={info.price} />
       </div>
     );
   } else if (info.type == "chance" || info.type == "community") {
     return (
       <div className="popup">
-        <Chance_Community img={info.type} name={info.title} dontStyle={true} />
+        <Chance_Community img={info.type} name={info.title} />
       </div>
     );
   } else if (info.type == "utility") {
     return (
       <div className="popup">
-        <Utility
-          name={info.name}
-          position={info.position}
-          price={info.price}
-          dontStyle={true}
-        />
+        <Utility name={info.name} position={info.position} price={info.price} />
       </div>
     );
   } else if (info.type == "luxury" || info.type == "income") {
     return (
       <div className="popup">
-        <Tax
-          tax={info.type}
-          name={info.name}
-          price={info.price}
-          dontStyle={true}
-        />
+        <Tax tax={info.type} name={info.name} price={info.price} />
       </div>
     );
   } else if (info.type == "go") {
     return (
       <div className="popup-corner">
-        <Go dontStyle={true} />
+        <Go />
       </div>
     );
   } else if (info.type == "jail") {
     return (
       <div className="popup-corner">
-        <Jail dontStyle={true} />
+        <Jail />
       </div>
     );
   } else if (info.type == "go-to-jail") {
     return (
       <div className="popup-corner">
-        <GoToJail dontStyle={true} />
+        <GoToJail />
       </div>
     );
   } else if (info.type == "parking") {
     return (
       <div className="popup-corner">
-        <FreeParking dontStyle={true} />
+        <FreeParking />
       </div>
     );
   }

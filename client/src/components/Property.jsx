@@ -2,18 +2,14 @@ import React from "react";
 import Helper from "../util/Helper.js";
 
 export default function Property(props) {
-  let classes;
-  let style;
-  if (props.dontStyle) {
-  } else {
-    [classes, style] = Helper.positionCards(props.position);
-  }
+  const [classes, style] = Helper.positionCards(props.position);
   return (
     <div
       className="card-holder"
       style={style}
       onClick={props.onClick}
       onMouseEnter={props.onMouseEnter}
+      onMouseLeave={props.onMouseLeave}
     >
       <div className={`card ${classes}`}>
         <div className={`header ${props.color}`} />

@@ -4,8 +4,6 @@ import Helper from "../util/Helper.js";
 export default function Utilities_Tax(props) {
   let imgPath = "";
   let utility = "";
-  let classes;
-  let style;
   switch (props.name) {
     case "ELECTRIC COMPANY":
       imgPath = "./src/assets/Electric.png";
@@ -15,10 +13,7 @@ export default function Utilities_Tax(props) {
       imgPath = "./src/assets/Water.png";
       utility = "water";
   }
-  if (props.dontStyle) {
-  } else {
-    [classes, style] = Helper.positionCards(props.position);
-  }
+  const [classes, style] = Helper.positionCards(props.position);
   return (
     <div
       className={`card ${classes}`}
