@@ -2,12 +2,7 @@ import React from "react";
 import Helper from "../util/Helper.js";
 
 export default function Railroad(props) {
-  let classes;
-  let style;
-  if (props.dontStyle) {
-  } else {
-    [classes, style] = Helper.positionCards(props.position);
-  }
+  const [classes, style] = Helper.positionCards(props.position);
   return (
     <div
       className={`card ${classes}`}

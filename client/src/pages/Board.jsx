@@ -33,7 +33,6 @@ export default function Board(props) {
     }
   };
   const handleHover = (value) => () => {
-    console.log(value);
     if (value) {
       setMagnify(true);
       setSelectedInfo(value);
@@ -104,6 +103,7 @@ export default function Board(props) {
         <Go
           position={others.go.position}
           onMouseEnter={handleHover(others.go)}
+          onMouseLeave={handleHover(others.go)}
         />
         <Jail
           position={others.jail.position}

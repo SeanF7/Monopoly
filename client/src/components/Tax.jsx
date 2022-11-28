@@ -4,8 +4,6 @@ import Helper from "../util/Helper.js";
 export default function Utilities_Tax(props) {
   let imgPath = "";
   let text = "";
-  let classes;
-  let style;
   switch (props.tax) {
     case "income":
       imgPath = "./src/assets/income.svg";
@@ -15,10 +13,7 @@ export default function Utilities_Tax(props) {
       imgPath = "./src/assets/luxury.png";
       text = "Luxury Tax";
   }
-  if (props.dontStyle) {
-  } else {
-    [classes, style] = Helper.positionCards(props.position);
-  }
+  const [classes, style] = Helper.positionCards(props.position);
 
   return (
     <div

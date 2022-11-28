@@ -3,6 +3,7 @@ import Welcome from "./pages/Welcome.jsx";
 import Board from "./pages/Board.jsx";
 import Movement from "./pages/Movement.jsx";
 import Chat from "./pages/Chat.jsx";
+import CreateSession from "./pages/CreateSession.jsx";
 import io from "socket.io-client";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -26,6 +27,7 @@ export default function App() {
               />
             }
           />
+          <Route path="/create" element={<CreateSession />} />
         </Routes>
       </Router>
     </div>

@@ -4,8 +4,6 @@ import Helper from "../util/Helper.js";
 export default function Chance_Community(props) {
   let imgPath = "";
   let text = "";
-  let classes;
-  let style;
   switch (props.img) {
     case "community":
       imgPath = "./src/assets/Community-Chest.png";
@@ -15,10 +13,7 @@ export default function Chance_Community(props) {
       imgPath = "./src/assets/chance.png";
       text = "CHANCE";
   }
-  if (props.dontStyle) {
-  } else {
-    [classes, style] = Helper.positionCards(props.position);
-  }
+  const [classes, style] = Helper.positionCards(props.position);
   return (
     <div
       className={`card ${classes}`}
