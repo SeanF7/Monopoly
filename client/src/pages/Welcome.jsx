@@ -11,14 +11,16 @@ export default function Welcome() {
     5. credits page
     */
     <main className="welcome">
-      <h1 className="center">Monopoly</h1>
-      <img src="src/assets/monopoly-icon.png" width="auto" height="auto" className="center"></img>
+      <h1>Monopoly</h1>
+      <img src="src/assets/monopoly-icon.png" width="80%" height="80%"></img>
       <br></br>
-      <button className="center"> Join a session </button>
-      <button className="center"> Create a session </button>
-      <button className="center"> New to the game? View the official rules here! </button>
+      <div className="session-buttons">
+        <a href="/create">Create a Session</a>
+        <a href="/join">Join a Session</a>
+      </div>
+      <button>New to the game? View the official rules here! </button>
     </main>
-  )
+  );
 }
 
 /*

@@ -4,11 +4,19 @@ main {
   line-height: 10vh;
 }
 
-/*
 .welcome {
-  background-image: url("src/assets/winter-neva-background.png");
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
 }
-*/
+.session-buttons {
+  display: flex;
+  gap: 10px;
+}
 
 /* centers both text and images */
 .center {
